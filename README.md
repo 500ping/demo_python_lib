@@ -31,7 +31,7 @@ git push --tags
 - File structure
 ```bash
 demo_python_lib/
-├── hubyo_client/
+├── demo_python_lib/
 │   ├── __init__.py
 │   └── test1.py
 ├── setup.py
