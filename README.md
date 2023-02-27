@@ -48,13 +48,12 @@ demo-python-lib @ git+ssh://git@github.com/500ping/demo_python_lib.git@0.0.11
 ```bash
 demo_python_lib = {git = "ssh://git@github.com/500ping/demo_python_lib.git", rev = "0.0.11"}
 ```
-- install 
-Pip
+- Install Pip
 ```bash
 pip install setuptools wheel
 pip install -r requirements.txt
 ```
-Poetry
+- Poetry
 ```bash
 poetry install
 ```
