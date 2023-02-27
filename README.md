@@ -44,6 +44,10 @@ demo_python_lib/
 ```bash
 demo-python-lib @ git+ssh://git@github.com/500ping/demo_python_lib.git@0.0.11
 ```
+- pyproject.toml (Poetry)
+```bash
+demo_python_lib = {git = "ssh://git@github.com/500ping/demo_python_lib.git", rev = "0.0.11"}
+```
 - install 
 ```bash
 pip install setuptools wheel
